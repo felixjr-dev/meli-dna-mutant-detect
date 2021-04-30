@@ -1,6 +1,6 @@
 # DNA Mutant Detector
 
-Servicio web Rest para la detectar si un humano es mutante basándose en su secuencia de ADN. 
+Servicio web Rest para la detectar si un humano es mutante basándose en su secuencia de ADN.
 
 ## Prerequisitos
 
@@ -22,7 +22,7 @@ Se puede consumir la REST API en http://34.69.5.199:8080/
 
 ### `POST /mutant/`
 
-curl -i -H 'Accept: application/json' -X POST -d '{ "dna":\["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"\] }' http://34.69.5.199:8080/mutant/
+`curl -i -H 'Accept: application/json' -X POST -d '{ "dna":["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"] }' http://34.69.5.199:8080/mutant`
 
 ### `GET /stats`
 
